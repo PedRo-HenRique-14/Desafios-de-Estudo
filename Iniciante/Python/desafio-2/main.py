@@ -9,3 +9,5 @@ b = float(input("Digite um número: "))
 x = a + b
 
 print(x)
+
+input()
