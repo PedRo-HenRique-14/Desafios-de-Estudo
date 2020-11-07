@@ -3,11 +3,9 @@ Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e
 #1001
 '''
 
-a = float(input("Digite um número: "))
-b = float(input("Digite um número: "))
+a = int(input("Digite um número: "))
+b = int(input("Digite um número: "))
 
 x = a + b
 
-print(x)
-
-input()
+print("X = {}".format(x))
