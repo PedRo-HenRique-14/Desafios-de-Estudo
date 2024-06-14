@@ -13,6 +13,7 @@ public class CoordenadasDeUmPonto {
         Scanner scanner = new Scanner(System.in);
         x = scanner.nextDouble();
         y = scanner.nextDouble();
+        scanner.close();
         if (x + y != 0) {
             if (x == 0) {
                 System.out.println("Eixo Y");

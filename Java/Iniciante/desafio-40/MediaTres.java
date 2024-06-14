@@ -17,6 +17,7 @@ import java.util.Scanner;
         note2 = scanner.nextDouble();
         note3 = scanner.nextDouble();
         note4 = scanner.nextDouble();
+        scanner.close();
         note1 *= 2;
         note2 *= 3;
         note3 *= 4;

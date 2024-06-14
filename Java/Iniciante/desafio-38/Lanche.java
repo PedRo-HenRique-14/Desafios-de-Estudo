@@ -13,6 +13,7 @@ public class Lanche {
         Scanner scanner = new Scanner(System.in);
         id = scanner.nextInt();
         qtd = scanner.nextInt();
+        scanner.close();
         if (id == 1) {
             // Cachorro quente R$4.00
             total = qtd * 4;
